@@ -1,0 +1,169 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "nodejs_expressjs_crud",
+    "dateExported": "2024-03-15T17:52:10.259Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "46727a94-0fb9-46eb-b350-e3b68cf9a8ea",
+            "colId": "8d69ca20-9ff7-4174-8264-94cc3a86966c",
+            "containerId": "",
+            "name": "createTodo",
+            "url": "http://localhost:5001/api/todo",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-03-15T08:17:34.892Z",
+            "modified": "2024-03-15T17:50:31.493Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"label\":\"Learn NodeJS for Auth\",\n  \"description\":\"Learn NodeJS with expressJS by using mongoDB for Authentication\",\n  \"status\":\"pending\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJBcnVuIEpvam8iLCJtb2JpbGUiOiI5NDAwMjQ3NzE3IiwiaWQiOiI2NWY0ODkxNDNhMWY0MzNlNjM4MjA0NmQifSwiaWF0IjoxNzEwNTI0NzA5LCJleHAiOjE3MTA1MjU2MDl9.IeTO_GfNY6PtgjypnDKkjEK0_64eTdIwxg6yjU-Bzlo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "31ca16e0-deec-496b-9224-a1cffbd2826d",
+            "colId": "8d69ca20-9ff7-4174-8264-94cc3a86966c",
+            "containerId": "",
+            "name": "getAllTodo",
+            "url": "http://localhost:5001/api/todo",
+            "method": "GET",
+            "sortNum": 50625,
+            "created": "2024-03-15T07:14:29.230Z",
+            "modified": "2024-03-15T17:45:30.548Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJBcnVuIEpvam8iLCJtb2JpbGUiOiI5NDAwMjQ3NzE3IiwiaWQiOiI2NWY0ODkxNDNhMWY0MzNlNjM4MjA0NmQifSwiaWF0IjoxNzEwNTI0NzA5LCJleHAiOjE3MTA1MjU2MDl9.IeTO_GfNY6PtgjypnDKkjEK0_64eTdIwxg6yjU-Bzlo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "8a348448-f8c6-497d-a65f-1ba53b24090e",
+            "colId": "8d69ca20-9ff7-4174-8264-94cc3a86966c",
+            "containerId": "",
+            "name": "getTodo",
+            "url": "http://localhost:5001/api/todo/1",
+            "method": "GET",
+            "sortNum": 50937.5,
+            "created": "2024-03-15T07:14:57.591Z",
+            "modified": "2024-03-15T08:23:56.378Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "7900dc0b-ad4d-43f3-84ee-2b2585de4901",
+            "colId": "8d69ca20-9ff7-4174-8264-94cc3a86966c",
+            "containerId": "",
+            "name": "updateTodo",
+            "url": "http://localhost:5001/api/todo/65f48a37c074edaaa20a730a",
+            "method": "PUT",
+            "sortNum": 51093.8,
+            "created": "2024-03-15T08:17:57.380Z",
+            "modified": "2024-03-15T17:51:02.565Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"label\":\"Learn NodeJS\",\n  \"description\":\"Learn NodeJS with expressJS by using mongoDB\",\n  \"status\":\"progress\"\n}",
+                "form": []
+            },
+            "reqType": "put",
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJBcnVuIEpvam8iLCJtb2JpbGUiOiI5NDAwMjQ3NzE3IiwiaWQiOiI2NWY0ODkxNDNhMWY0MzNlNjM4MjA0NmQifSwiaWF0IjoxNzEwNTI0NzA5LCJleHAiOjE3MTA1MjU2MDl9.IeTO_GfNY6PtgjypnDKkjEK0_64eTdIwxg6yjU-Bzlo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "e7d49838-cfc4-4d64-93a0-18e27348ecc7",
+            "colId": "8d69ca20-9ff7-4174-8264-94cc3a86966c",
+            "containerId": "",
+            "name": "deleteTodo",
+            "url": "http://localhost:5001/api/todo/65f48a67c074edaaa20a730d",
+            "method": "DELETE",
+            "sortNum": 51171.9,
+            "created": "2024-03-15T08:18:26.030Z",
+            "modified": "2024-03-15T17:51:21.805Z",
+            "headers": [],
+            "params": [],
+            "reqType": "del",
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJBcnVuIEpvam8iLCJtb2JpbGUiOiI5NDAwMjQ3NzE3IiwiaWQiOiI2NWY0ODkxNDNhMWY0MzNlNjM4MjA0NmQifSwiaWF0IjoxNzEwNTI0NzA5LCJleHAiOjE3MTA1MjU2MDl9.IeTO_GfNY6PtgjypnDKkjEK0_64eTdIwxg6yjU-Bzlo"
+            },
+            "tests": []
+        },
+        {
+            "_id": "f70fa8c7-dbc6-4632-ad92-1fc39fb57cdf",
+            "colId": "8d69ca20-9ff7-4174-8264-94cc3a86966c",
+            "containerId": "",
+            "name": "registerUser",
+            "url": "http://localhost:5001/api/user/register",
+            "method": "POST",
+            "sortNum": 51250,
+            "created": "2024-03-15T15:22:06.691Z",
+            "modified": "2024-03-15T17:38:41.348Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Arun Jojo\",\n  \"mobile\":\"9400247717\",\n  \"password\":\"Arun2786\"\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "7cbe80c3-aacd-4b7d-ae34-78b1b2815539",
+            "colId": "8d69ca20-9ff7-4174-8264-94cc3a86966c",
+            "containerId": "",
+            "name": "loginUser",
+            "url": "http://localhost:5001/api/user/login",
+            "method": "POST",
+            "sortNum": 71250,
+            "created": "2024-03-15T15:24:14.946Z",
+            "modified": "2024-03-15T17:38:54.261Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"mobile\":\"9400247717\",\n  \"password\":\"Arun2786\"\n}",
+                "form": []
+            },
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "6814aaa7-9b76-4f81-9c19-3ff549abbc71",
+            "colId": "8d69ca20-9ff7-4174-8264-94cc3a86966c",
+            "containerId": "",
+            "name": "currentUser",
+            "url": "http://localhost:5001/api/user/current",
+            "method": "GET",
+            "sortNum": 81250,
+            "created": "2024-03-15T15:23:25.762Z",
+            "modified": "2024-03-15T17:45:18.784Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Im5hbWUiOiJBcnVuIEpvam8iLCJtb2JpbGUiOiI5NDAwMjQ3NzE3IiwiaWQiOiI2NWY0ODkxNDNhMWY0MzNlNjM4MjA0NmQifSwiaWF0IjoxNzEwNTI0NzA5LCJleHAiOjE3MTA1MjU2MDl9.IeTO_GfNY6PtgjypnDKkjEK0_64eTdIwxg6yjU-Bzlo"
+            },
+            "tests": []
+        }
+    ]
+}

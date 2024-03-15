@@ -1,7 +1,7 @@
 {
   "name": "nodejs_expressjs_crud",
   "version": "1.0.0",
-  "description": "nodejs and expressjs used todo crud operation for backend developent",
+  "description": "NodeJS and ExpressJS used todo crud operation and user authentication for backend development",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,21 +9,29 @@
     "dev": "nodemon server.js"
   },
   "keywords": [
-    "node_js",
-    "express_js",
-    "express_router",
+    "NodeJS",
+    "ExpressJS",
+    "mongoDB",
     "dotenv",
-    "middleware",
+    "bcrypt",
+    "jwt",
+    "Controllers",
+    "Middleware",
+    "Models",
+    "Routers",
     "errorHandler",
     "asyncHandler",
-    "mongoDB"
+    "validateToken",
+    "privateRoutes"
   ],
   "author": "arunkjojo",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.5",
     "express": "^4.18.3",
     "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.5.0",
     "mongoose": "^8.2.1"
   },
